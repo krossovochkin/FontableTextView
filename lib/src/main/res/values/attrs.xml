@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontableAutocompleteTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableButton">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableCheckBox">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableCheckedTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableChronometer">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableCompoundButton">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableEditText">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableExtractEditText">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableMultiAutocompleteEditText">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableRadioButton">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontableToggleButton">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <attr name="typeface" format="enum">
+        <enum name="roboto_regular" value="0"/>
+        <enum name="roboto_bold" value="1"/>
+        <enum name="roboto_thin" value="2"/>
+        <enum name="roboto_italic" value="3"/>
+    </attr>
+
+    <string-array name="fontPaths">
+        <item>Roboto-Regular</item>
+        <item>Roboto-Bold</item>
+        <item>Roboto-Thin</item>
+        <item>Roboto-Italic</item>
+    </string-array>
+
+</resources>

@@ -1,16 +1,78 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.krossovochkin.fontabletextview.demo.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</RelativeLayout>
+        <com.krossovochkin.fontabletextview.FontableAutocompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableButton
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableCheckBox
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableCheckedTextView
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableChronometer
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableCompoundButton
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableEditText
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableMultiAutocompleteEditText
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableRadioButton
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableTextView
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+        <com.krossovochkin.fontabletextview.FontableToggleButton
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="roboto_bold" />
+
+    </LinearLayout>
+</ScrollView>

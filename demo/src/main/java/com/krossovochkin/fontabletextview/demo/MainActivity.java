@@ -1,9 +1,11 @@
 package com.krossovochkin.fontabletextview.demo;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.krossovochkin.fontabletextview.FontManager;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -11,6 +13,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        FontManager.init(this);
+
         setContentView(R.layout.activity_main);
     }
 

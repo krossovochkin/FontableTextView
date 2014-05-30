@@ -61,4 +61,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
+And there is cool thing: you can use in the java source code TextView instead of FontableTextView.
+So, changing TextView's font affects only xml code and not java code. Useful
+
 You can look at the demo project for more information.

@@ -1,12 +1,3 @@
-package com.krossovochkin.fontabletextview.demo;
-
-import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.view.Menu;
-import android.view.MenuItem;
-
-import com.krossovochkin.fontabletextview.FontManager;
-
 /*
 * Copyright 2014 Vasya Drobushkov
 *
@@ -22,6 +13,16 @@ import com.krossovochkin.fontabletextview.FontManager;
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
+
+
+package com.krossovochkin.fontabletextview.demo;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+
+import com.krossovochkin.fontabletextview.FontManager;
 
 public class MainActivity extends ActionBarActivity {
 

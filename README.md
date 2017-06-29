@@ -7,8 +7,6 @@ This is a project for easy changing TextView's (and some of its Subclasses) font
 Instead of using TextView widget in xml use:
 
 ```
-#!xml
-
 <com.krossovochkin.fontabletextview.FontableTextView
             android:text="@string/hello_world"
             android:layout_width="wrap_content"
@@ -18,8 +16,6 @@ Instead of using TextView widget in xml use:
 custom:typeface is an enum value, defined in the attr.xml file in the lib.
 
 ```
-#!xml
-
 <attr name="typeface" format="enum">
     <enum name="roboto_regular" value="0"/>
     <enum name="roboto_bold" value="1"/>
@@ -32,8 +28,6 @@ You can customize it as you want, but there is one rule.
 At the bottom of this attr.xml file there are string-array:
 
 ```
-#!xml
-
 <string-array name="fontPaths">
     <item>Roboto-Regular</item>
     <item>Roboto-Bold</item>
@@ -49,8 +43,6 @@ So, 'Roboto-Regular' means there should be font file in: assets/fonts/Roboto-Reg
 Also, you should init FontManager in your activity **before** setContentView:
 
 ```
-#!java
-
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);

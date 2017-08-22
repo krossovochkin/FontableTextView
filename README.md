@@ -1,3 +1,7 @@
+# DEPRECATED #
+Fonts in XML now supported in Android O (and with support library from API 14)
+Documentation on how to use Fonts in XML now is [here](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml.html)
+
 # FontableTextView #
 
 This is a project for easy changing TextView's (and some of its Subclasses) font to custom, loaded from assets.
